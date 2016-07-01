@@ -1,71 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-    <title> Draconic Studios </title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
-
-    <style media="screen">
-      body{
-        color: #999999;
-      }
-      .container{
-        background-color: #222222;
-        border-radius: 5px;
-      }
-      .post{
-        background-color: #333333;
-        border-radius: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-      }
-      .post-subject{
-        padding: 10px;
-      }
-      .post-body{
-        padding: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Draconic</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Draconic Development</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"/>Home</a></li>
-          <li><a href="about.html"><span class="glyphicon glyphicon-question-sign"/>About</a></li>
-          <li><a href="games.html"><span class="glyphicon glyphicon-cloud-download"/>Games</a></li>
-          <li><a href="not_found.html"><span class="glyphicon glyphicon-envelope"/>Contact</a></li>
-        </ul>
-      <div/>
+    <nav class="nav-bar">
+      <h1 class="nav-bar-header">
+        Draconic
+      </h1>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 
-    <div class="container" style="">
+    <div class="news">
       <h1>News</h1>
-        <article class="post">
-          <h1 class="post-subject">First post</h1>
-          <h4 class="post-body">
-            <p>Todo:</p>
-            <ul>
-              <li>Better character dialog system</li>
-              <li>The first merchant NPC</li>
-              <li>HUD(health, mana, level)</li>
-              <li>Attack system(spells for now that use mana)</li>
-              <li>Better in-game GUI system</li>
-            </ul>
-          </h4>
-        </article>
-      </div>
+      <article>
+        <h3>Subject: Test news</h3>
+        <h3>By: ForeseenParadox</h3>
+        <h3>Date: 7/1/2016</h3>
+        <p>
+          This is some test news.
+        </p>
+      </article>
+
+      <article>
+        <h3>Subject: Test news 2</h3>
+        <h3>By: ForeseenParadox</h3>
+        <h3>Date: 7/1/2016</h3>
+        <p>
+          This is some more test news.
+        </p>
+      </article>
     </div>
 
-
   </body>
-
 </html>
